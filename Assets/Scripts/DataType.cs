@@ -35,8 +35,10 @@ public class DataType : MonoBehaviour
         Debug.Log(num4.ToString());
         Debug.Log(isBool.ToString());
 
-        //전역변수에 값을 할당하지 않고 사용하면 초기값이 자동으로 할당됨.
+        //전역변수에 값을 할당하지 않고 사용하면 초기값이 자동으로 할당됨. = 전역변수는 값을 지정하지 않고도 사용할 수 있음.
         
+        //정적 변수(Static)
+        //객체의 인스턴스 한 번 생성. 프로그램 종료될 때 리소스 반환 ->메모리 많이 차지. 유니티 인스펙터에서는 보이지 않음.
     }
 
     // Update is called once per frame
