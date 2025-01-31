@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class Loop : MonoBehaviour
@@ -28,6 +29,10 @@ public class Loop : MonoBehaviour
         {
             
         }
+
+        int a = 0;
+        for(int i = 0; i<10; i++) a++;
+        
     }
 
     void WhileLoop()
