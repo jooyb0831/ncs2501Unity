@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DelegateDemo : MonoBehaviour
 {
+    
+    
 
     //델리게이트 선언
     delegate float SumHandler(float a, float b);
