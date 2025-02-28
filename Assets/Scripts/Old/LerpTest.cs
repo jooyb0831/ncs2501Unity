@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LerpTest : MonoBehaviour
 {
+    /*
     private Light light;
     // Start is called before the first frame update
     void Start()
@@ -16,4 +17,5 @@ public class LerpTest : MonoBehaviour
     {
         light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
     }
+    */
 }

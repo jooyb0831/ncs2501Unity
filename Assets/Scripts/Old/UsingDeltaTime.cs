@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UsingDeltaTime : MonoBehaviour
 {
+    /*
     public float speed = 8f;
     [Range(1,10)]
     public float countDown = 3.0f;
@@ -30,4 +31,5 @@ public class UsingDeltaTime : MonoBehaviour
             transform.position += new Vector3(speed * Time.deltaTime, 0f,0f);
         }
     }
+    */
 }

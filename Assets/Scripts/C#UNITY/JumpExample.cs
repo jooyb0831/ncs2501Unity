@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JumpExample : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -104,4 +105,5 @@ public class JumpExample : MonoBehaviour
     {
         
     }
+    
 }
