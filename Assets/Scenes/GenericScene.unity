@@ -310,7 +310,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1908404833}
+  - component: {fileID: 1908404835}
   - component: {fileID: 1908404832}
+  - component: {fileID: 1908404834}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -325,7 +327,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908404831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb80a303caf853e45967bcf096d65848, type: 3}
   m_Name: 
@@ -345,3 +347,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1908404834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908404831}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d0def341c3476438fc60972868a56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FilePath: C:\Users\user\AppData\Local\Temp\tmp46064dad.tmp
+--- !u!114 &1908404835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908404831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc331bf44d69ea4cab2ccd2b23fbebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SourceDirectory: C:\Users\user\Desktop\Current
+  m_ArchiveDirectory: C:\Users\user\Desktop\Archive
